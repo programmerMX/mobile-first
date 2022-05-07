@@ -1,0 +1,152 @@
+.header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    height: 276px;
+    background: linear-gradient( #282623,#f7931a);
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin: 30px 0;
+}
+
+.header--title-container{
+    width: 90%;
+    height: 218x;
+    align-self: center;
+    text-align: center;
+}
+
+.header--title-container h1{
+    font-size: 2.64rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.header--title-container p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+    color: var(--soft-orange);
+    margin: 24px 0;
+}
+
+.header--button{
+    position: absolute;
+    text-decoration: none;
+    display: block;
+    background-color: var(--off-white);
+    padding: 15px;
+    width: 230px;
+    box-shadow: 0px 4px 8px var(--warm-black);
+    bottom: -10%;
+    left: calc(50% - 114.5px);
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 5px;
+}
+
+.header--button span{
+    display: inline-block;
+    background-image: url('../assets/icons/down-arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 13px;
+    height: 8px;
+    margin-left: 5px;
+}
+
+/*Exchange section*/
+
+.main--exchange-section{
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.exchange-section--figure-title{
+    text-align: center;
+    margin-top: 75px;
+    margin-bottom: 24px;
+}
+
+.main--exchange-section h2{
+    font-weight: 700;
+    color: var(--black);
+    font-size: 2rem;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.main--exchange-section p{
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--warm-black);
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.exchange-section--table-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exchange-section--table-container table{
+    display: inline-block;
+}
+
+.exchange-section--table-container table tr{
+    text-align: justify;
+}
+
+#th-coin{
+    padding: 10px 20px;
+    font-size: 1.6rem;
+    color: var(--bitcoin-orange);
+    font-weight: 700;
+}
+
+.exchange-section--coin-table, td{
+    padding: 10px 20px;
+    font-size: 1.4rem;
+    color: var(--grey);
+    font-weight: bold;
+}
+
+.exchange-section--coin-table td span{
+    color: var(--warm-black);
+    font-weight: 400;
+    margin-right: 10px;
+}
+
+.exchange-section--table-container p{
+    padding: 0;
+    color: var(--warm-black);
+    display: inline-block;
+    background-color: var(--soft-orange);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.main--black-section{
+    background-color: black;
+    height: 500px;
+}
+
+.exchange-section--footer-logo{
+    position: absolute;
+    display: block;
+    padding: 15px;
+    bottom: -15%;
+    left: calc(50% - 37.5px);
+}
