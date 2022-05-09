@@ -147,6 +147,199 @@ header img{
     position: absolute;
     display: block;
     padding: 15px;
-    bottom: -15%;
+    bottom: -14%;
     left: calc(50% - 37.5px);
+}
+
+/*Benefit section*/
+
+.benefit-section{
+    background-color: var(--black);
+    padding: 60px 0;
+}
+
+.benefit-section--title-container{
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.benefit-section--title-container h2{
+  text-align: center;  
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--just-white);
+}
+
+.benefit-section--title-container p{
+    font-size: 1.4rem;
+    color: var(--grey);
+    padding: 15px 0;
+}
+
+/*benefits*/
+
+.benefit-section--benefits-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.benefit-content{
+    margin: 5px 0;
+    padding: 15px 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+}
+
+.benefit-content img,h2,p{
+    margin: 5px 0;
+}
+
+.benefit-content h2{
+    font-size: 1.6rem;
+    color: var(--just-white);
+    font-weight: bold;
+}
+
+.benefit-content p{
+    font-size: 1.4rem;
+    color: var(--grey);
+    font-weight: 500;
+}
+
+/*Meet section*/
+
+.know-us-section{
+    background-image: url('../assets/img/bitcoinbaby2x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    min-width: 320px;
+}
+
+.know-us-section h2{
+    margin: 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+    padding: 60px 0;
+    text-align: center;
+    color: var(--just-white);
+}
+
+/*Plans Section*/
+
+.plans-section{
+    padding: 30px 0;
+}
+
+.plans-section--plans-container{
+   
+}
+
+.plans-section--title-container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.plans-section--title-container h2{
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--black);
+    padding: 15px 0;
+}
+
+.plans-section--title-container p{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--warm-black);
+}
+
+.plans-section--plans-container{
+    display: flex;
+    margin: 30px 0;
+    width: 100%;
+    height: 100%;
+}
+
+.plans-section--plans-container div{
+    background-color: #efeeec;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+
+.plans-section--plans-container .arrow-container{
+    display: flex;
+    align-items: center;
+}
+
+.plans-section--plans-container .plan-container{
+    text-align: center;
+    margin: 0 10px;
+}
+
+.plan-container .recommended{
+    background-color: var(--bitcoin-orange);
+    font-size: 1.6rem;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: var(--just-white);
+    display: inline-block;
+    border-radius: 15px;
+    position: relative;
+    top: -25px;
+}
+
+.plan h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.plan .price .price-number span{
+    font-size:  3rem;
+}
+
+.plan-container .choice-plan-btn{
+    margin: 20px 0;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 0;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.plan-container .choice-plan-btn span{
+    margin-right: 15px;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/*Footer*/
+
+.contact-section{
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: var(--bitcoin-orange);
+    align-items: center;
+}
+
+.contact-section .contact-list-container, figure{
+    padding: 0 30px;
+}
+
+.contact-section ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.contact-section ul li a{
+    font-size: 1.4rem;
+    color: var(--just-white);
+    text-decoration: none;
 }
